@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        style="@style/scoreValue"
+        android:text="5 (Sample Only)"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/scoreTitle"
+        android:layout_marginTop="28dp"
+        android:text="@string/score"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/scoreTitle"
+        android:layout_marginTop="32dp"
+        android:text="@string/category"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@style/scoreValue"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="Taft Culture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="315dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:srcCompat="@drawable/hangman7" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/linearLayoutGameActivity"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <Button
+            android:id="@+id/btnA"
+            style="@style/lettersButton"
+            android:text="@string/a" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/lettersButton"
+            android:text="@string/b" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/lettersButton"
+            android:text="@string/c" />
+
+        <Button
+            android:id="@+id/button18"
+            style="@style/lettersButton"
+            android:text="@string/d" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/lettersButton"
+            android:text="@string/e" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/lettersButton"
+            android:text="@string/f" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/lettersButton"
+            android:text="@string/g" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        style="@style/linearLayoutGameActivity"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/lettersButton"
+            android:text="@string/h" />
+
+        <Button
+            android:id="@+id/button25"
+            style="@style/lettersButton"
+            android:text="@string/i" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/lettersButton"
+            android:text="@string/j" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/lettersButton"
+            android:text="@string/k" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/lettersButton"
+            android:text="@string/l" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/lettersButton"
+            android:text="@string/m" />
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/lettersButton"
+            android:text="@string/n" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        style="@style/linearLayoutGameActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/lettersButton"
+            android:text="@string/o" />
+
+        <Button
+            android:id="@+id/button17"
+            style="@style/lettersButton"
+            android:text="@string/p" />
+
+        <Button
+            android:id="@+id/button19"
+            style="@style/lettersButton"
+            android:text="@string/q" />
+
+        <Button
+            android:id="@+id/button16"
+            style="@style/lettersButton"
+            android:text="@string/r" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/lettersButton"
+            android:text="@string/s" />
+
+        <Button
+            android:id="@+id/button22"
+            style="@style/lettersButton"
+            android:text="@string/t" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        style="@style/linearLayoutGameActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/button28"
+            style="@style/lettersButton"
+            android:text="@string/u" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/lettersButton"
+            android:text="@string/v" />
+
+        <Button
+            android:id="@+id/button24"
+            style="@style/lettersButton"
+            android:text="@string/w" />
+
+        <Button
+            android:id="@+id/button26"
+            style="@style/lettersButton"
+            android:text="@string/x" />
+
+        <Button
+            android:id="@+id/button29"
+            style="@style/lettersButton"
+            android:text="@string/y" />
+
+        <Button
+            android:id="@+id/button27"
+            style="@style/lettersButton"
+            android:text="@string/z" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        style="@style/linearLayoutGameActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/guessWord"
+        android:text="T a _ t  C _ l t _ r e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btnNewWord"
+        style="@style/subButton"
+        android:text="@string/new_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

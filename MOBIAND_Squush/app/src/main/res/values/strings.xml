@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MOBIAND_Squush</string>
+    <string name="start_game">START GAME</string>
+    <string name="about">About the Game</string>
+    <string name="about_game">Hangman is a popular word guessing game.
+        The mechanics of the game is the player should make a smart guess of letters that correspond on each dash.
+        If the letter given by the player is not on the word or phrase assigned to the player a life or coin will be deducted to the hanging man.
+        The player will be given x number of allowed wrong answers.
+        If he/she exceeds the maximum number of wrong answers the hanging man will die, and the game is over.
+        Also, there will be buttons that will only function to display a game once the Switch is set to start.</string>
+    <string name="programmed_by">Programmed by:</string>
+    <string name="programmers">Shi | Cuello | Reyes | Chan</string>
+    <string name="copyright">© 2021</string>
+    <string name="category1">Taft Culture</string>
+    <string name="category2">Category 02</string>
+    <string name="category3">Category 03</string>
+    <string name="category">Category:</string>
+    <string name="score">Score:</string>
+    <string name="new_word">Generate new word</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="u">U</string>
+    <string name="v">V</string>
+    <string name="w">W</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+</resources>
